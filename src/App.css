@@ -86,3 +86,37 @@ input{
     position: relative;
     top: 20px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top:0px ;
+    }
+
+
+    .food{
+        height: 100%;
+    }
+
+    .food-box{
+        margin-bottom: 30px;
+        height: 230px;
+    }
+
+    input{
+        width: 200px;
+        margin: 0 auto;
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+}
