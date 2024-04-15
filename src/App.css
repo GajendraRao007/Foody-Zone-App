@@ -41,3 +41,48 @@ input{
     font-size: 16px;
 }
 
+.food{
+    background-image: url('C:\Users\LENOVO\Desktop\Foody-Zone\foodyzoneapp\src\Images\bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.food-box{
+    width: 340px;
+    height: 167px;
+    border-radius: 19.45px;
+    color: white;
+    /* background-color: ; */
+    border: 0.66px solid #868686;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
+    padding: 10px;
+    display: flex;
+
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.info{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price{
+    background-color: #FF4343;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
